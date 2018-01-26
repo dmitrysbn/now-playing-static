@@ -195,3 +195,32 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+/* TABLE LAYOUT */
+
+/* BREAKPOINT 768px */
+@media screen and (min-width: 768px) {
+
+  li.site-nav-item {
+    width: 100%;
+  }
+
+  .site-nav-item:first-child {
+    margin-top: 60px;
+  }
+
+  nav.site-nav {
+    width: 9%;
+    z-index: 60;
+    height: 100%;
+    bottom: auto;
+  }
+
+  img.site-logo-image {
+    /* z-index: 60; */
+    width: 40px;
+    height: 40px;
+    /* margin-left: 2px; */
+  }
+}
