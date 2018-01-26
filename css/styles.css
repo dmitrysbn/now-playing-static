@@ -218,9 +218,16 @@ figure {
   }
 
   img.site-logo-image {
-    /* z-index: 60; */
     width: 40px;
     height: 40px;
-    /* margin-left: 2px; */
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+  }
+
+  h1.site-logo {
+    width: 9%;
+    top: 0;
+    left: 0;
   }
 }
