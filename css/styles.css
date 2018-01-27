@@ -211,7 +211,7 @@ figure {
   }
 
   nav.site-nav {
-    width: 9%;
+    width: 10%;
     z-index: 60;
     height: 100%;
     bottom: auto;
@@ -226,8 +226,61 @@ figure {
   }
 
   h1.site-logo {
-    width: 9%;
+    width: 10%;
     top: 0;
     left: 0;
   }
+
+  main {
+    float: right;
+    width: 90%;
+  }
+
+  .movie-overview {
+    display: block;
+  }
+
+  .about {
+    background-color:#000;
+    clear: both;
+    padding: 1em;
+    float: right;
+    width: 90%;
+  }
+
+  .about > p {
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  nav.footer-nav {
+    display: none;
+  }
+}
+
+/* BREAKPOINT 992px */
+@media screen and (min-width: 992px) {
+
+  p.movie-overview {
+    display: none;
+  }
+
+  article:first-child {
+    float: right;
+    width: 100%;
+    clear: both;
+  }
+
+  article {
+    float: left;
+    width: 33.33%;
+  }
+
+  article:first-child div p {
+    display: block;
+    width: 90%;
+  }
+
+  
 }
