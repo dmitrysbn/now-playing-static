@@ -282,5 +282,24 @@ figure {
     width: 90%;
   }
 
-  
+  article:first-child figure.movie-poster {
+    display: none;
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  article:first-child img.movie-poster {
+    display: none;
+  }
+
+  article:first-child img.movie-backdrop {
+    display: block;
+  }
+
 }
